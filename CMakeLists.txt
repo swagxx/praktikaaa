@@ -13,7 +13,8 @@ add_executable(first_app first/first.cpp
         five/five.cpp
         "six/perviy .cpp"
         six/vtoroy.cpp
-        six/tretiy.cpp)
+        six/tretiy.cpp
+        seven/seven.cpp)
 
 # Вторая задача
 add_executable(second_app second/second.cpp)
