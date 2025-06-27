@@ -1,7 +1,14 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.26)
 project(prak)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(prak main.cpp
-        first/first.cpp)
+# Основная программа
+add_executable(main_app main.cpp)
+
+# Первая лабораторная
+add_executable(first_app first/first.cpp
+        three/three.cpp)
+
+# Вторая лабораторная
+add_executable(second_app second/second.cpp)
