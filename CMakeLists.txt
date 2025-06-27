@@ -6,9 +6,16 @@ set(CMAKE_CXX_STANDARD 17)
 # Основная программа
 add_executable(main_app main.cpp)
 
-# Первая лабораторная
+# Первая задача
 add_executable(first_app first/first.cpp
-        three/three.cpp)
+        three/three.cpp
+        four/four.cpp)
 
-# Вторая лабораторная
+# Вторая задача
 add_executable(second_app second/second.cpp)
+
+#Третья задача
+add_executable(three, three/three.cpp)
+
+#Четвертая задача
+add_executable(four, four/four.cpp)
