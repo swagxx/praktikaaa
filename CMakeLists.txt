@@ -9,7 +9,8 @@ add_executable(main_app main.cpp)
 # Первая задача
 add_executable(first_app first/first.cpp
         three/three.cpp
-        four/four.cpp)
+        four/four.cpp
+        five/five.cpp)
 
 # Вторая задача
 add_executable(second_app second/second.cpp)
@@ -19,3 +20,6 @@ add_executable(three, three/three.cpp)
 
 #Четвертая задача
 add_executable(four, four/four.cpp)
+
+#Пятая задача
+add_executable(five, five/five.cpp)
